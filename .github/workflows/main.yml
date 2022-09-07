@@ -18,5 +18,5 @@ jobs:
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
         
-      - name: Creates spark setup
-        run: ../spark-setup.yaml
+      - name: Checkout spark action
+        run: ../actions/spark-setup.yaml
