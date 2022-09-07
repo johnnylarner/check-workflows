@@ -9,6 +9,8 @@ inputs:
 outputs:
   time: # id of output
     description: 'The time we greeted you'
+  python-version:
+    description: 'Version of python installed on docker image.'
 runs:
   using: 'docker'
   image: 'Dockerfile'
