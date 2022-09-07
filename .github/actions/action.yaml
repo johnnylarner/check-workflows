@@ -15,4 +15,6 @@ runs:
       spark-version: '3.2.1'
       hadoop-version: '3.2'
 
-  - run: spark-submit --version
+  - name: Test version
+    shell: bash 
+    run: spark-submit --version
